@@ -488,7 +488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2802991519656239446, guid: 932de4bfab6f3eb4d81edd989964fbba, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 205.3658
+      value: 232.9739
       objectReference: {fileID: 0}
     - target: {fileID: 2802991519656239446, guid: 932de4bfab6f3eb4d81edd989964fbba, type: 3}
       propertyPath: m_SizeDelta.y
@@ -734,7 +734,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

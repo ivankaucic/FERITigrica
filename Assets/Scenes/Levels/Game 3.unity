@@ -1761,11 +1761,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &203598665 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7748590651496331451, guid: 50dfc2fbfb040484db010a30029ecd6a, type: 3}
-  m_PrefabInstance: {fileID: 1413807195}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &203598670 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7748590651496331450, guid: 50dfc2fbfb040484db010a30029ecd6a, type: 3}
@@ -2380,6 +2375,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25bcad2a6062030479fcc9ea011bbf9a, type: 3}
+--- !u!1 &264600281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5924592281392519705, guid: 25bcad2a6062030479fcc9ea011bbf9a, type: 3}
+  m_PrefabInstance: {fileID: 264600280}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &264600286 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5924592281392519707, guid: 25bcad2a6062030479fcc9ea011bbf9a, type: 3}
@@ -7571,9 +7571,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies:
-  - {fileID: 203598665}
+  - {fileID: 1413807196}
   - {fileID: 501981655}
   - {fileID: 1686937448}
+  - {fileID: 264600281}
 --- !u!1 &977968756
 GameObject:
   m_ObjectHideFlags: 0
@@ -10310,8 +10311,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Saw
       objectReference: {fileID: 0}
+    - target: {fileID: 7748590651496331451, guid: 50dfc2fbfb040484db010a30029ecd6a, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50dfc2fbfb040484db010a30029ecd6a, type: 3}
+--- !u!1 &1413807196 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7748590651496331451, guid: 50dfc2fbfb040484db010a30029ecd6a, type: 3}
+  m_PrefabInstance: {fileID: 1413807195}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1416745056
 GameObject:
   m_ObjectHideFlags: 0
